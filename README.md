@@ -47,8 +47,18 @@ See our latest paper [[TimesNet]](https://arxiv.org/abs/2210.02186) for the comp
  
 ## Usage
 
-1. Install Python 3.8. For convenience, execute the following command.
+1. Install Python 3.8. For convenience, execute the following commands.
 
+create a virtualenv with python 3.8:
+```
+virtualenv --python="/usr/bin/python3.8" venv 
+```
+
+enable the created virtualenv:
+```
+source venv/bin/activate
+```
+install the requirements:
 ```
 pip install -r requirements.txt
 ```
